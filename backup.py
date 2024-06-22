@@ -3,7 +3,6 @@ from langchain.vectorstores import FAISS
 from langchain.embeddings import CohereEmbeddings
 import os
 from langchain.memory import StreamlitChatMessageHistory
-from decouple import config
 
 def get_answer(message, chat_history):
     co = cohere.Client('3Kcl5JLbJPfliBP1zGQLQ1SreitV2ulm9IG9SO3x')
